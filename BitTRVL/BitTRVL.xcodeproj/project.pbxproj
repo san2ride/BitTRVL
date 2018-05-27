@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73A3893489B03F013278DA14 /* Pods_BitTRVL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */; };
+		AD21AE1120B7EA010048E170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21AE1020B7EA010048E170 /* AppDelegate.swift */; };
+		AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1420B7EA010048E170 /* Main.storyboard */; };
+		AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1720B7EA080048E170 /* Assets.xcassets */; };
+		AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */; };
+		AD732D7F20B9E66800A785F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD21AE2220B7EA080048E170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD21AE0520B7EA000048E170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD21AE0C20B7EA000048E170;
+			remoteInfo = BitTRVL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2731E6F8456D143BE19A38 /* Pods-BitTRVL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.debug.xcconfig"; sourceTree = "<group>"; };
+		AD21AE0D20B7EA000048E170 /* BitTRVL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitTRVL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21AE1020B7EA010048E170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21AE1520B7EA010048E170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21AE1720B7EA080048E170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD21AE1A20B7EA080048E170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD21AE1C20B7EA080048E170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21AE2120B7EA080048E170 /* BitTRVLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitTRVLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD21AE0A20B7EA000048E170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A3893489B03F013278DA14 /* Pods_BitTRVL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21AE1E20B7EA080048E170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47545B67FE262F682AC612D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E2731E6F8456D143BE19A38 /* Pods-BitTRVL.debug.xcconfig */,
+				E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD21AE0420B7EA000048E170 = {
+			isa = PBXGroup;
+			children = (
+				AD21AE0F20B7EA000048E170 /* BitTRVL */,
+				AD21AE0E20B7EA000048E170 /* Products */,
+				47545B67FE262F682AC612D8 /* Pods */,
+				FAC9095E6B2CD0EDB6A6F13A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD21AE0E20B7EA000048E170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD21AE0D20B7EA000048E170 /* BitTRVL.app */,
+				AD21AE2120B7EA080048E170 /* BitTRVLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD21AE0F20B7EA000048E170 /* BitTRVL */ = {
+			isa = PBXGroup;
+			children = (
+				AD21AE1020B7EA010048E170 /* AppDelegate.swift */,
+				AD21AE1420B7EA010048E170 /* Main.storyboard */,
+				AD21AE3220B7EC8F0048E170 /* model */,
+				AD21AE3320B7ECA30048E170 /* view */,
+				AD21AE3120B7EC860048E170 /* controller */,
+				AD21AE3020B7EC620048E170 /* Supporting Files */,
+			);
+			path = BitTRVL;
+			sourceTree = "<group>";
+		};
+		AD21AE3020B7EC620048E170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */,
+				AD21AE1720B7EA080048E170 /* Assets.xcassets */,
+				AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */,
+				AD21AE1C20B7EA080048E170 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD21AE3120B7EC860048E170 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AD21AE3220B7EC8F0048E170 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AD21AE3320B7ECA30048E170 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FAC9095E6B2CD0EDB6A6F13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD21AE0C20B7EA000048E170 /* BitTRVL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21AE2A20B7EA080048E170 /* Build configuration list for PBXNativeTarget "BitTRVL" */;
+			buildPhases = (
+				7E6BF3F694F2482C9AE99AC4 /* [CP] Check Pods Manifest.lock */,
+				AD21AE0920B7EA000048E170 /* Sources */,
+				AD21AE0A20B7EA000048E170 /* Frameworks */,
+				AD21AE0B20B7EA000048E170 /* Resources */,
+				FDB65C0D66FE6B17F63CF1E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitTRVL;
+			productName = BitTRVL;
+			productReference = AD21AE0D20B7EA000048E170 /* BitTRVL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD21AE2020B7EA080048E170 /* BitTRVLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21AE2D20B7EA080048E170 /* Build configuration list for PBXNativeTarget "BitTRVLTests" */;
+			buildPhases = (
+				AD21AE1D20B7EA080048E170 /* Sources */,
+				AD21AE1E20B7EA080048E170 /* Frameworks */,
+				AD21AE1F20B7EA080048E170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD21AE2320B7EA080048E170 /* PBXTargetDependency */,
+			);
+			name = BitTRVLTests;
+			productName = BitTRVLTests;
+			productReference = AD21AE2120B7EA080048E170 /* BitTRVLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD21AE0520B7EA000048E170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jason Sanchez";
+				TargetAttributes = {
+					AD21AE0C20B7EA000048E170 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AD21AE2020B7EA080048E170 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AD21AE0C20B7EA000048E170;
+					};
+				};
+			};
+			buildConfigurationList = AD21AE0820B7EA000048E170 /* Build configuration list for PBXProject "BitTRVL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD21AE0420B7EA000048E170;
+			productRefGroup = AD21AE0E20B7EA000048E170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD21AE0C20B7EA000048E170 /* BitTRVL */,
+				AD21AE2020B7EA080048E170 /* BitTRVLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD21AE0B20B7EA000048E170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */,
+				AD732D7F20B9E66800A785F9 /* GoogleService-Info.plist in Resources */,
+				AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */,
+				AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21AE1F20B7EA080048E170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E6BF3F694F2482C9AE99AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitTRVL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB65C0D66FE6B17F63CF1E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD21AE0920B7EA000048E170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21AE1120B7EA010048E170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21AE1D20B7EA080048E170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD21AE2320B7EA080048E170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD21AE0C20B7EA000048E170 /* BitTRVL */;
+			targetProxy = AD21AE2220B7EA080048E170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD21AE1420B7EA010048E170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21AE1520B7EA010048E170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21AE1A20B7EA080048E170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD21AE2820B7EA080048E170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD21AE2920B7EA080048E170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD21AE2B20B7EA080048E170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2731E6F8456D143BE19A38 /* Pods-BitTRVL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				INFOPLIST_FILE = "$(SRCROOT)/BitTRVL/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trvl.BitTRVL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD21AE2C20B7EA080048E170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				INFOPLIST_FILE = "$(SRCROOT)/BitTRVL/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trvl.BitTRVL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD21AE2E20B7EA080048E170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				INFOPLIST_FILE = BitTRVLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trvl.BitTRVLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitTRVL.app/BitTRVL";
+			};
+			name = Debug;
+		};
+		AD21AE2F20B7EA080048E170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				INFOPLIST_FILE = BitTRVLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trvl.BitTRVLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitTRVL.app/BitTRVL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD21AE0820B7EA000048E170 /* Build configuration list for PBXProject "BitTRVL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21AE2820B7EA080048E170 /* Debug */,
+				AD21AE2920B7EA080048E170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21AE2A20B7EA080048E170 /* Build configuration list for PBXNativeTarget "BitTRVL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21AE2B20B7EA080048E170 /* Debug */,
+				AD21AE2C20B7EA080048E170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21AE2D20B7EA080048E170 /* Build configuration list for PBXNativeTarget "BitTRVLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21AE2E20B7EA080048E170 /* Debug */,
+				AD21AE2F20B7EA080048E170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD21AE0520B7EA000048E170 /* Project object */;
+}
