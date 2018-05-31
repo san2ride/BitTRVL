@@ -19,6 +19,9 @@
 		ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D7520BBE9590020B449 /* RoundShadowView.swift */; };
 		ADA82D7820BBEB0F0020B449 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D7720BBEB0F0020B449 /* CircleView.swift */; };
 		ADA82D7A20BBEE580020B449 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D7920BBEE580020B449 /* RoundedShadowButton.swift */; };
+		ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */; };
+		ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */; };
+		ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		ADA82D7520BBE9590020B449 /* RoundShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowView.swift; sourceTree = "<group>"; };
 		ADA82D7720BBEB0F0020B449 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		ADA82D7920BBEE580020B449 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,7 @@
 		AD21AE0F20B7EA000048E170 /* BitTRVL */ = {
 			isa = PBXGroup;
 			children = (
+				ADA8D75220BE8E3C0063A16B /* Protocols */,
 				AD21AE1020B7EA010048E170 /* AppDelegate.swift */,
 				AD21AE1420B7EA010048E170 /* Main.storyboard */,
 				AD21AE3220B7EC8F0048E170 /* model */,
@@ -126,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA82D7120BBE28A0020B449 /* HomeVC.swift */,
+				ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */,
+				ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -147,6 +156,14 @@
 				ADA82D7920BBEE580020B449 /* RoundedShadowButton.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		ADA8D75220BE8E3C0063A16B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		FAC9095E6B2CD0EDB6A6F13A /* Frameworks */ = {
@@ -308,8 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */,
 				ADA82D7A20BBEE580020B449 /* RoundedShadowButton.swift in Sources */,
+				ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */,
 				ADA82D7820BBEB0F0020B449 /* CircleView.swift in Sources */,
+				ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */,
 				ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */,
 				ADA82D7220BBE28A0020B449 /* HomeVC.swift in Sources */,
 				ADA82D7420BBE7CC0020B449 /* RoundImageView.swift in Sources */,
