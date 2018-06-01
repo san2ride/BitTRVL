@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73A3893489B03F013278DA14 /* Pods_BitTRVL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */; };
+		AD0288CC20C126F400E4B2F5 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0288CB20C126F400E4B2F5 /* RoundedCornerTextField.swift */; };
 		AD21AE1120B7EA010048E170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21AE1020B7EA010048E170 /* AppDelegate.swift */; };
 		AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1420B7EA010048E170 /* Main.storyboard */; };
 		AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1720B7EA080048E170 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3E2731E6F8456D143BE19A38 /* Pods-BitTRVL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0288CB20C126F400E4B2F5 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 		AD21AE0D20B7EA000048E170 /* BitTRVL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitTRVL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD21AE1020B7EA010048E170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD21AE1520B7EA010048E170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				ADA82D7520BBE9590020B449 /* RoundShadowView.swift */,
 				ADA82D7720BBEB0F0020B449 /* CircleView.swift */,
 				ADA82D7920BBEE580020B449 /* RoundedShadowButton.swift */,
+				AD0288CB20C126F400E4B2F5 /* RoundedCornerTextField.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */,
 				ADA82D7220BBE28A0020B449 /* HomeVC.swift in Sources */,
 				ADA82D7420BBE7CC0020B449 /* RoundImageView.swift in Sources */,
+				AD0288CC20C126F400E4B2F5 /* RoundedCornerTextField.swift in Sources */,
 				ADA82D7020BBDEE50020B449 /* GradientView.swift in Sources */,
 				AD21AE1120B7EA010048E170 /* AppDelegate.swift in Sources */,
 			);
