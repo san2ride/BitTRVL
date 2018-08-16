@@ -1,0 +1,6 @@
+framework module Pods_BitTRVL {
+  umbrella header "Pods-BitTRVL-umbrella.h"
+
+  export *
+  module * { export * }
+}
