@@ -13,9 +13,9 @@
 		AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1420B7EA010048E170 /* Main.storyboard */; };
 		AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1720B7EA080048E170 /* Assets.xcassets */; };
 		AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */; };
+		AD62302020C5D299003AAC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */; };
 		AD62762320C0CF2A0093467B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62762220C0CF2A0093467B /* UIViewExt.swift */; };
 		AD62762620C0E2170093467B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62762520C0E2170093467B /* LoginVC.swift */; };
-		AD732D7F20B9E66800A785F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */; };
 		ADA82D7020BBDEE50020B449 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D6F20BBDEE40020B449 /* GradientView.swift */; };
 		ADA82D7220BBE28A0020B449 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D7120BBE28A0020B449 /* HomeVC.swift */; };
 		ADA82D7420BBE7CC0020B449 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D7320BBE7CC0020B449 /* RoundImageView.swift */; };
@@ -25,6 +25,7 @@
 		ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */; };
 		ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */; };
 		ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */; };
+		ADF48A4720C340F700F45B6E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF48A4620C340F700F45B6E /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +48,9 @@
 		AD21AE1A20B7EA080048E170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD21AE1C20B7EA080048E170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD21AE2120B7EA080048E170 /* BitTRVLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitTRVLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD62762220C0CF2A0093467B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		AD62762520C0E2170093467B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADA82D6F20BBDEE40020B449 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		ADA82D7120BBE28A0020B449 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		ADA82D7320BBE7CC0020B449 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		ADF48A4620C340F700F45B6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		AD21AE0F20B7EA000048E170 /* BitTRVL */ = {
 			isa = PBXGroup;
 			children = (
+				ADF48A4520C340BB00F45B6E /* Services */,
 				AD62762420C0CF370093467B /* Extensions */,
 				ADA8D75220BE8E3C0063A16B /* Protocols */,
 				AD21AE1020B7EA010048E170 /* AppDelegate.swift */,
@@ -128,10 +131,10 @@
 		AD21AE3020B7EC620048E170 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD732D7E20B9E66700A785F9 /* GoogleService-Info.plist */,
 				AD21AE1720B7EA080048E170 /* Assets.xcassets */,
 				AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */,
 				AD21AE1C20B7EA080048E170 /* Info.plist */,
+				AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +184,14 @@
 				ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ADF48A4520C340BB00F45B6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADF48A4620C340F700F45B6E /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		FAC9095E6B2CD0EDB6A6F13A /* Frameworks */ = {
@@ -275,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */,
-				AD732D7F20B9E66800A785F9 /* GoogleService-Info.plist in Resources */,
+				AD62302020C5D299003AAC3A /* GoogleService-Info.plist in Resources */,
 				AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */,
 				AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */,
 			);
@@ -343,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */,
+				ADF48A4720C340F700F45B6E /* DataService.swift in Sources */,
 				ADA82D7A20BBEE580020B449 /* RoundedShadowButton.swift in Sources */,
 				AD62762620C0E2170093467B /* LoginVC.swift in Sources */,
 				ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */,
