@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>BITRVL needs your location so driver can find you.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>BITRVL is requesting your location.</string>
 </dict>
 </plist>
