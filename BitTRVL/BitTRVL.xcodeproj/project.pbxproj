@@ -25,6 +25,7 @@
 		ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */; };
 		ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */; };
 		ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */; };
+		ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC874B2126A8FA0096E5DF /* UpdateService.swift */; };
 		ADF48A4720C340F700F45B6E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF48A4620C340F700F45B6E /* DataService.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		ADAC874B2126A8FA0096E5DF /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		ADF48A4620C340F700F45B6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E580716DB8CE049EDA9594 /* Pods-BitTRVL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTRVL.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				ADF48A4620C340F700F45B6E /* DataService.swift */,
+				ADAC874B2126A8FA0096E5DF /* UpdateService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */,
 				AD62762320C0CF2A0093467B /* UIViewExt.swift in Sources */,
 				ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */,
+				ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */,
 				ADA82D7220BBE28A0020B449 /* HomeVC.swift in Sources */,
 				ADA82D7420BBE7CC0020B449 /* RoundImageView.swift in Sources */,
 				AD0288CC20C126F400E4B2F5 /* RoundedCornerTextField.swift in Sources */,
