@@ -117,7 +117,7 @@
                                                             <constraint firstAttribute="width" constant="20" id="uvB-Dl-eWl"/>
                                                         </constraints>
                                                     </view>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Where are you going?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Ov-Yk-1Td">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Where are you going?" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6Ov-Yk-1Td">
                                                         <rect key="frame" x="30" y="0.0" width="280" height="33"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
@@ -207,6 +207,9 @@
                     </view>
                     <connections>
                         <outlet property="actionButton" destination="uJu-9h-bSm" id="NvG-Ru-Zr8"/>
+                        <outlet property="centerMapBtn" destination="YSu-WW-XqU" id="o7D-cd-pvH"/>
+                        <outlet property="destinationCircle" destination="sTY-5m-9D0" id="H0b-wR-4Mh"/>
+                        <outlet property="destinationTextField" destination="6Ov-Yk-1Td" id="Tox-LT-Qkk"/>
                         <outlet property="mapView" destination="QTx-ew-ohN" id="bfX-Cb-H1b"/>
                     </connections>
                 </viewController>
