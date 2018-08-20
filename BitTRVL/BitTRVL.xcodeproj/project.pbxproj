@@ -25,6 +25,7 @@
 		ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */; };
 		ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */; };
 		ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */; };
+		ADA975422129734C00D6BCA8 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA975412129734C00D6BCA8 /* PassengerAnnotation.swift */; };
 		ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC874B2126A8FA0096E5DF /* UpdateService.swift */; };
 		ADDBF1442127F9BA00865D13 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */; };
 		ADF48A4720C340F700F45B6E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF48A4620C340F700F45B6E /* DataService.swift */; };
@@ -62,6 +63,7 @@
 		ADA8D74C20BE89AD0063A16B /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		ADA8D74E20BE8A3C0063A16B /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		ADA975412129734C00D6BCA8 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
 		ADAC874B2126A8FA0096E5DF /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 		ADF48A4620C340F700F45B6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				ADA82D7920BBEE580020B449 /* RoundedShadowButton.swift */,
 				AD0288CB20C126F400E4B2F5 /* RoundedCornerTextField.swift */,
 				ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */,
+				ADA975412129734C00D6BCA8 /* PassengerAnnotation.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				ADA8D74D20BE89AD0063A16B /* LeftSidePanelVC.swift in Sources */,
 				ADA82D7820BBEB0F0020B449 /* CircleView.swift in Sources */,
 				ADA8D74F20BE8A3C0063A16B /* ContainerVC.swift in Sources */,
+				ADA975422129734C00D6BCA8 /* PassengerAnnotation.swift in Sources */,
 				AD62762320C0CF2A0093467B /* UIViewExt.swift in Sources */,
 				ADDBF1442127F9BA00865D13 /* DriverAnnotation.swift in Sources */,
 				ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */,
