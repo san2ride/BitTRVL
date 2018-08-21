@@ -28,6 +28,7 @@
 		ADA975422129734C00D6BCA8 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA975412129734C00D6BCA8 /* PassengerAnnotation.swift */; };
 		ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC874B2126A8FA0096E5DF /* UpdateService.swift */; };
 		ADAEFE3E212BF54F004EBFCF /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAEFE3D212BF54F004EBFCF /* UIViewControllerExt.swift */; };
+		ADAEFE40212C0797004EBFCF /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAEFE3F212C0797004EBFCF /* Alertable.swift */; };
 		ADDBF1442127F9BA00865D13 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */; };
 		ADF48A4720C340F700F45B6E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF48A4620C340F700F45B6E /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		ADA975412129734C00D6BCA8 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
 		ADAC874B2126A8FA0096E5DF /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		ADAEFE3D212BF54F004EBFCF /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		ADAEFE3F212C0797004EBFCF /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 		ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 		ADF48A4620C340F700F45B6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA8D75020BE8E2E0063A16B /* CenterVCDelegate.swift */,
+				ADAEFE3F212C0797004EBFCF /* Alertable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				ADA975422129734C00D6BCA8 /* PassengerAnnotation.swift in Sources */,
 				AD62762320C0CF2A0093467B /* UIViewExt.swift in Sources */,
 				ADDBF1442127F9BA00865D13 /* DriverAnnotation.swift in Sources */,
+				ADAEFE40212C0797004EBFCF /* Alertable.swift in Sources */,
 				ADA82D7620BBE9590020B449 /* RoundShadowView.swift in Sources */,
 				ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */,
 				ADA82D7220BBE28A0020B449 /* HomeVC.swift in Sources */,
