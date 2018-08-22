@@ -41,8 +41,7 @@ class LoginVC: UIViewController, UITextFieldDelegate, Alertable {
             self.view.endEditing(true)
             
             if let email = emailField.text, let password = passwordField.text {
-                Auth.auth().signIn(withEmail: email, password: password,
-                    completion: { (authResult, error) in
+                Auth.auth().signIn(withEmail: email, password: password, completion: { (authResult, error) in
                     if error == nil {
                         if let user = authResult?.user {
                             if self.segmentedControl.selectedSegmentIndex == 0 {
