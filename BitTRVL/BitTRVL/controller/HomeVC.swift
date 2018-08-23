@@ -36,6 +36,8 @@ class HomeVC: UIViewController, Alertable {
     
     var route: MKRoute!
     
+    var expectedTravelTime: TimeInterval!
+    
     var selectedItemPlacemark: MKPlacemark? = nil
     
     override func viewDidLoad() {
@@ -281,7 +283,7 @@ extension HomeVC: MKMapViewDelegate {
             self.route = response.routes[0]
             
             self.mapView.add(self.route.polyline)
-            //self.mapView.add(self.route.expectedTravelTime)
+            //self.mapView.(self.expectedTravelTime.description)
             
             self.shouldPresentLoadingView(false)
         }
