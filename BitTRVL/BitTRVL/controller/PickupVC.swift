@@ -13,16 +13,31 @@ class PickupVC: UIViewController {
     
     @IBOutlet weak var pickupMapView: RoundMapView!
     
+    var pickupCoordinate: CLLocationCoordinate2D!
+    var passengerKey: String!
+    
     var regionRadius: CLLocationDistance = 2000
     var pin: MKPlacemark? = nil
+    
+    var locationPlacemark: MKPlacemark!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        pickupMapView.delegate = self
         
+        locationPlacemark = MKPlacemark(coordinate: pickupCoordinate)
+        
+        dropPinFor(placemark: locationPlacemark)
+        centerMapOnLocation(location: locationPlacemark.location!)
     }
-    @IBAction func acceptTripButtonPressed(_ sender: Any) {
+    
+    func initData(coordinate: CLLocationCoordinate2D, passengerKey: String) {
+        self.pickupCoordinate = coordinate
+        self.passengerKey = passengerKey
     }
+    
+    @IBAction func acceptTripButtonPressed(_ sender: Any) {}
     
     @IBAction func cancelButtonPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
@@ -31,7 +46,7 @@ class PickupVC: UIViewController {
 
 extension PickupVC: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        var identifier = "pickupPoint"
+        let identifier = "pickupPoint"
         var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
         if annotationView == nil {
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
