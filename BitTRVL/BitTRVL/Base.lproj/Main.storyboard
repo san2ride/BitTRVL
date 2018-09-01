@@ -188,7 +188,7 @@
                                     <color key="titleColor" red="1" green="0.085631063440000002" blue="0.084826511689999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="cancelBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfF-Wf-beU"/>
+                                    <action selector="cancelBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9D-lE-qBH"/>
                                 </connections>
                             </button>
                         </subviews>

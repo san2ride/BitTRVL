@@ -15,7 +15,7 @@
 		AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1420B7EA010048E170 /* Main.storyboard */; };
 		AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1720B7EA080048E170 /* Assets.xcassets */; };
 		AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */; };
-		AD62302020C5D299003AAC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */; };
+		AD3BDF7E21368CEB00B8736C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD3BDF7D21368CEA00B8736C /* GoogleService-Info.plist */; };
 		AD62762320C0CF2A0093467B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62762220C0CF2A0093467B /* UIViewExt.swift */; };
 		AD62762620C0E2170093467B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62762520C0E2170093467B /* LoginVC.swift */; };
 		ADA82D7020BBDEE50020B449 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82D6F20BBDEE40020B449 /* GradientView.swift */; };
@@ -57,7 +57,7 @@
 		AD21AE1A20B7EA080048E170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD21AE1C20B7EA080048E170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD21AE2120B7EA080048E170 /* BitTRVLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitTRVLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD3BDF7D21368CEA00B8736C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD62762220C0CF2A0093467B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		AD62762520C0E2170093467B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		ADA82D6F20BBDEE40020B449 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 				AD21AE1720B7EA080048E170 /* Assets.xcassets */,
 				AD21AE1920B7EA080048E170 /* LaunchScreen.storyboard */,
 				AD21AE1C20B7EA080048E170 /* Info.plist */,
-				AD62301F20C5D299003AAC3A /* GoogleService-Info.plist */,
+				AD3BDF7D21368CEA00B8736C /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -307,9 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD21AE1B20B7EA080048E170 /* LaunchScreen.storyboard in Resources */,
-				AD62302020C5D299003AAC3A /* GoogleService-Info.plist in Resources */,
 				AD21AE1820B7EA080048E170 /* Assets.xcassets in Resources */,
 				AD21AE1620B7EA010048E170 /* Main.storyboard in Resources */,
+				AD3BDF7E21368CEB00B8736C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
