@@ -31,6 +31,7 @@
 		ADAC874C2126A8FA0096E5DF /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC874B2126A8FA0096E5DF /* UpdateService.swift */; };
 		ADAEFE3E212BF54F004EBFCF /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAEFE3D212BF54F004EBFCF /* UIViewControllerExt.swift */; };
 		ADAEFE40212C0797004EBFCF /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAEFE3F212C0797004EBFCF /* Alertable.swift */; };
+		ADC89AA4213FB8720056BE10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC89AA3213FB8720056BE10 /* Constants.swift */; };
 		ADDBF1442127F9BA00865D13 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */; };
 		ADF48A4720C340F700F45B6E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF48A4620C340F700F45B6E /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		ADAC874B2126A8FA0096E5DF /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		ADAEFE3D212BF54F004EBFCF /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		ADAEFE3F212C0797004EBFCF /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		ADC89AA3213FB8720056BE10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ADDBF1432127F9BA00865D13 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 		ADF48A4620C340F700F45B6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B6E0E579B1854BA95F373A3B /* Pods_BitTRVL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitTRVL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 		AD21AE0F20B7EA000048E170 /* BitTRVL */ = {
 			isa = PBXGroup;
 			children = (
+				ADC89AA2213FB8460056BE10 /* Resources */,
 				ADF48A4520C340BB00F45B6E /* Services */,
 				AD62762420C0CF370093467B /* Extensions */,
 				ADA8D75220BE8E3C0063A16B /* Protocols */,
@@ -204,6 +207,14 @@
 				ADAEFE3F212C0797004EBFCF /* Alertable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ADC89AA2213FB8460056BE10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADC89AA3213FB8720056BE10 /* Constants.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		ADF48A4520C340BB00F45B6E /* Services */ = {
@@ -349,7 +360,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BitTRVL/Pods-BitTRVL-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -357,7 +368,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -375,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA8D75120BE8E2E0063A16B /* CenterVCDelegate.swift in Sources */,
+				ADC89AA4213FB8720056BE10 /* Constants.swift in Sources */,
 				ADF48A4720C340F700F45B6E /* DataService.swift in Sources */,
 				ADAEFE3E212BF54F004EBFCF /* UIViewControllerExt.swift in Sources */,
 				ADA82D7A20BBEE580020B449 /* RoundedShadowButton.swift in Sources */,
